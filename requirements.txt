@@ -1,0 +1,17 @@
+reportlab
+python-pptx
+PyPDF2
+transformers
+tf-keras
+tensorflow
+chromadb
+streamlit
+python-pptx
+Pillow
+fpdf2
+openai
+langchain-anthropic
+langchain
+langchain-community
+unstructured
+tiktoken
