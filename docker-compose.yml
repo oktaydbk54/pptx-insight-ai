@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  streamlit-app:
+    build: .
+    container_name: pptx_ai
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+    environment:
+      - .env
+    command: streamlit run main.py --server.port=8080 --server.address=0.0.0.0
