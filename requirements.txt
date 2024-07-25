@@ -4,8 +4,8 @@ PyPDF2
 transformers
 tf-keras
 tensorflow
-chromadb
-streamlit
+streamlit==1.28.1
+chromadb==0.4.17
 python-pptx
 Pillow
 fpdf2
